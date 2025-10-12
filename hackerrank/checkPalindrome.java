@@ -1,4 +1,6 @@
 Check Palindrome by Filtering Non-Letters
+
+  
 Given a string containing letters, digits, and symbols, determine if it reads the same forwards and backwards when considering only alphabetic characters (case-insensitive).
 
 Example
@@ -37,3 +39,36 @@ abc123cba
 Sample Output 1
 
 1
+
+
+
+  
+import java.io.*;
+import java.math.*;
+import java.security.*;
+import java.text.*;
+import java.util.*;
+import java.util.concurrent.*;
+import java.util.function.*;
+import java.util.regex.*;
+import java.util.stream.*;
+import static java.util.stream.Collectors.joining;
+import static java.util.stream.Collectors.toList;
+
+
+
+class Result {
+
+    /*
+     * Complete the 'isAlphabeticPalindrome' function below.
+     *
+     * The function is expected to return a BOOLEAN.
+     * The function accepts STRING code as parameter.
+     */
+
+    public static boolean isAlphabeticPalindrome(String code) {
+    // Write your code here
+
+    }
+
+}
