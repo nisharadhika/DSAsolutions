@@ -65,9 +65,28 @@ class Result {
      * The function is expected to return a BOOLEAN.
      * The function accepts STRING code as parameter.
      */
+     
+     public static boolean isPalindrome(String str) {
+        int left = 0;
+        int right = str.length() - 1;
+
+        while (left < right) {
+            if (str.charAt(left) != str.charAt(right)) {
+                return false;
+            }
+            left++;
+            right--;
+        }
+
+        return true; 
+    }
 
     public static boolean isAlphabeticPalindrome(String code) {
     // Write your code here
+    String str=code.replaceAll("[^a-zA-Z]", "");
+    String m=str.toLowerCase();
+    return isPalindrome(m);
+    
 
     }
 
